@@ -21,6 +21,6 @@
     'images': ['static/description/icon.png'],
     'license': 'LGPL-3',
     'installable': True,
-    'application': False,
+    'application': True,
     'auto_install': False,
 }
