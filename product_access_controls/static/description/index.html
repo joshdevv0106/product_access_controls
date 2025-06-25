@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Product Access Control – Secure Product Fields in Odoo</title>
+    <meta name="description" content="Restrict access to sensitive product fields like cost price and product type in Odoo. Ideal for finance, procurement, and inventory security.">
+    <meta name="keywords" content="odoo product access, product cost security, hide cost price, restrict product type, odoo user access product fields">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container my-5">
+        <!-- Header -->
+        <div class="d-flex justify-content-between align-items-center shadow p-4 mb-4 bg-white">
+            <div class="text-center">
+                <img src="icon.png" alt="Access Control Icon" style="height: 125px">
+            </div>
+            <div class="flex-grow-1 text-center">
+                <h1 class="text-primary" style="font-family: 'Montserrat'; font-weight: 700; font-size: 1.8rem;">Product Access Control</h1>
+                <h2 class="text-muted" style="font-family: 'Roboto'; font-size: 1rem;">Protect Sensitive Product Fields like Cost Price and Product Type</h2>
+            </div>
+            <div>
+                <span class="badge badge-primary p-2 mx-1">Community</span>
+                <span class="badge badge-primary p-2 mx-1">Enterprise</span>
+            </div>
+        </div>
+
+        <!-- Overview -->
+        <section id="overview" class="mb-5">
+            <h2 class="text-dark" style="font-family: 'Montserrat'; font-weight: 600;">Overview</h2>
+            <p style="font-family: 'Roboto'; font-size: 1.1rem;">
+                This module enables you to set access rules for critical product fields such as <strong>cost price</strong> and <strong>product type</strong>. Ensure only authorized personnel (like finance or inventory managers) can view or modify this information. Prevent accidental edits or data leaks across your Odoo environment.
+            </p>
+        </section>
+
+        <!-- Features -->
+        <section id="features" class="mb-5">
+            <h2 class="text-dark" style="font-family: 'Montserrat'; font-weight: 600;">Key Features</h2>
+            <ul style="font-family: 'Roboto'; font-size: 1rem;">
+                <li>🔒 Restrict access to cost price, product type, and invoicing policy</li>
+                <li>👥 Assign rules based on user group (e.g., Finance, Procurement)</li>
+                <li>👁️ Hide or make fields readonly for unauthorized users</li>
+                <li>📦 Works on both Product Template and Product Variant</li>
+                <li>⚙️ Flexible security configuration per field</li>
+            </ul>
+        </section>
+
+        <!-- Configuration -->
+        <section id="configuration" class="mb-5">
+            <h2 class="text-dark" style="font-family: 'Montserrat'; font-weight: 600;">Configuration Steps</h2>
+            <ol style="font-family: 'Roboto'; font-size: 1rem;">
+                <li>Install the module and go to Settings → Users & Companies → Groups</li>
+                <li>Add allowed users to groups like "Inventory super admin"</li>
+                <li>Unauthorized users will see restricted views or readonly fields</li>
+                <li>Customize field-level access rules via settings or technical menu</li>
+            </ol>
+        </section>
+
+        <!-- Screenshots -->
+        <section id="screenshots" class="mb-5">
+            <h2 class="text-dark" style="font-family: 'Montserrat'; font-weight: 600;">Screenshots</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="screenshot-access.png" alt="Access Rules Screenshot" class="img-fluid rounded border shadow-sm mb-3">
+                </div>
+                <div class="col-md-6">
+                    <img src="Screenshot-product.png" alt="Product Fields Restricted" class="img-fluid rounded border shadow-sm mb-3">
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <div class="text-center border-top pt-4">
+            <h5>Need Help or Custom Rules?</h5>
+            <p style="font-family: 'Roboto'; font-size: 1rem;">
+                📧 Contact <strong>joshdevv0106@gmail.com</strong> for support or custom access controls.
+            </p>
+        </div>
+    </div>
+</body>
+</html>
